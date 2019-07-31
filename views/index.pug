@@ -1,0 +1,41 @@
+extends layout
+
+block content
+
+  <meta property="og:image" content="https://img.hankyung.com/photo/201907/AA.20131850.1.jpg">
+  
+  // script window.location.replace("http://example.com");
+
+
+  <h1>REDIRECT</h1>
+
+
+  <p> 주소 </p>
+  input
+
+  p site 정보 
+  input 
+  <p> 유지기간 </p>
+  
+  select
+   option(value="1") day
+   option(value="7") week
+   option(value="30") month
+   option(value="365") year
+   option(value="0") forever
+  
+  br
+  br
+
+  p img url 등록 
+  input
+  button(type="button") 등록 
+  
+  br
+  br
+  button(type="button") convert! 
+
+ 
+  p ----------------------firebase db에 저장된 redirection 리스트 ----------------------------------
+
+  
